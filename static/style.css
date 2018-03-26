@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Montserrat');
+html, body {
+  height: 100%;
+}
 
 body {
     background-color: #373E47;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 #clock {
     display: block;
     padding: 2em;
 }
-body {
-    padding: 0;
-    margin: 0;
-}
+
 h1, h2, h3 {
     font-family: 'Alfa Slab One', cursive;
     color: #EBBB5E;
@@ -20,6 +22,10 @@ h1, h2, h3 {
 h4, p, li {
     font-family: 'Montserrat', sans-serif;
     color: #EBBB5E;
+}
+
+section {
+  min-height: 100%;
 }
 
 #intro {
