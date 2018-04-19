@@ -3,6 +3,10 @@ html, body {
   height: 100%;
 }
 
+image {
+    border-radius: 1em;
+}
+
 body {
     background-color: #373E47;
     width: 100%;
@@ -60,7 +64,7 @@ section {
 }
 
 .jimmy-giraffe {
-    padding-bottom: 3em;
+    margin-bottom: 3em;
     width: 50%;
 }
 
