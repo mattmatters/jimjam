@@ -14,6 +14,9 @@ body {
     margin: 0;
 }
 
+.jimmy-jam {
+    width: 25%;
+}
 #clock {
     display: block;
     padding: 2em;
@@ -33,6 +36,12 @@ section {
 }
 
 #intro {
+    background: url(trip.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#giraffe {
     background-color: #373E47;
 }
 
@@ -70,4 +79,16 @@ section {
 
 .sub-header {
     font-size: 2em;
+}
+
+.shake-animation {
+    animation: woaahh infinite 1.5s linear;
+}
+
+@keyframes woaahh {
+    0% {transform:rotate(0deg) scale(1,1);}
+    25% {transform:rotate(60deg) scale(1.1);}
+    50% {transform:rotate(0deg) scale(2,1);}
+    75% {transform:rotate(-60deg) scale(1.1);}
+    100% {transform:rotate(0deg) scale(1,1);}
 }
